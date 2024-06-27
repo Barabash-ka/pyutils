@@ -1,6 +1,11 @@
 # My untracked artifacts
 logs/       # directory where log files are saved
 temp/*      # directory used for testing and experiments
+tmp/*       # directory used for testing and experiments
+temp        # directory used for testing and experiments
+tmp         # directory used for testing and experiments
+temp        # directory used for testing and experiments
+tmp*        # directory used for testing and experiments
 ###############################
 # Start github bolerplate 
 ###############################
@@ -8,7 +13,7 @@ temp/*      # directory used for testing and experiments
 __pycache__/
 *.py[cod]
 *$py.class
-
+ 
 # C extensions
 *.so
 

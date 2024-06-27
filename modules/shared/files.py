@@ -2,6 +2,7 @@ import tempfile
 import zipfile
 import tarfile
 import logging
+import hashlib
 
 logger = logging.getLogger(__name__)
 
@@ -35,6 +36,16 @@ def extract_tar(tar_path, temp_dir):
     with tarfile.open(tar_path, 'r') as tar_ref:
         tar_ref.extractall(temp_dir)
     logger.info(f"Extracted {tar_path} to temp dir: {temp_dir}")
+
+def get_hash_from_contents(file_path) :
+    try:
+        with open(file_path, "rb") as f:
+            img_data = f.read()
+            img_hash = hashlib.sha256(img_data).hexdigest()
+            return img_hash
+    except Exception as e:
+        logger.error("Failed to read image file %s: %s", file_path, e)
+        return None
 
 ########################################################################
 
