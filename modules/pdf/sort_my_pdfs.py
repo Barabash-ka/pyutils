@@ -1,0 +1,31 @@
+import argparse
+import logging
+import os
+import shutil
+
+from shared.logging_setup import setup_logging
+from shared.utils import extract_zip
+from pdf_processing import process_pdfs
+
+if __name__ == "__main__":
+    setup_logging('organize_pdfs.log')
+    
+    parser = argparse.ArgumentParser(description="Process PDFs from a zip file and organize them by some criteria.")
+    parser.add_argument('zip_file_path', type=str, help="Path to the zip file containing PDFs.")
+    parser.add_argument('destination_directory', type=str, help="Path to the directory where organized PDFs will be copied.")
+    args = parser.parse_args()
+    
+    zip_file_path = args.zip_file_path
+    destination_directory = args.destination_directory
+    
+    logging.info(f"Starting PDF processing with zip file {zip_file_path} and destination directory {destination_directory}")
+    
+    extracted_dir = extract_zip(zip_file_path)
+    
+    try:
+        process_pdfs(extracted_dir, destination_directory)
+    finally:
+        shutil.rmtree(extracted_dir)
+        logging.info(f"Removed temporary directory {extracted_dir}")
+    
+    logging.info("PDF processing completed")
