@@ -3,10 +3,17 @@ import zipfile
 import tarfile
 import logging
 import hashlib
+import os
 
 logger = logging.getLogger(__name__)
 
 from modules.shared.logging import setup_logging
+
+def count_files_in_folder(folder):
+    files_in_folder = 0
+    for _, _, folder_files in os.walk(folder):
+        files_in_folder += len(folder_files)
+    return files_in_folder
 
 def isimage(file_path) :
     #logger.info(f"isimage called for {file_path}")
@@ -37,6 +44,7 @@ def extract_tar(tar_path, temp_dir):
         tar_ref.extractall(temp_dir)
     logger.info(f"Extracted {tar_path} to temp dir: {temp_dir}")
 
+# https://towardsdev.com/simplifying-duplicate-image-detection-across-various-sources-a-practical-guide-f530666c0de8
 def get_hash_from_contents(file_path) :
     try:
         with open(file_path, "rb") as f:

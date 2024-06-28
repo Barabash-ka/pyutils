@@ -10,7 +10,7 @@ import shutil
 #sys.path.append(parent_dir)
 
 from modules.shared.logging import setup_logging
-from modules.shared.files import extract_totemp, isimage, isarchive, get_hash_from_contents
+from modules.shared.files import extract_totemp, isimage, isarchive, get_hash_from_contents, count_files_in_folder
 from modules.img.img_exif import get_image_metadata
 from modules.geoloc.geoloc_cache import GeolocationCache
 
@@ -30,31 +30,31 @@ moto = "Smile and love, always!!! Kathy :-)"
 logger = logging.getLogger(program_abbr)
 
 geocache = None
-dest_dir = None
-other_dir = None
+dest_folder = None
+non_image_folder = None
 keep_temp_folders = False
-processed_files = 0
-processed_images = 0
-processed_other = 0
+total_files = 0
+image_files = 0
+non_image_files = 0
 copied_files = 0
 duplicate_files = 0
 
 def process_folder(folder_path):
-    global processed_files
-    logger.debug(f"start processing folder{folder_path}")
-    for root, _, folder_files in os.walk(folder_path):
-        logger.debug(f"there are {len(folder_files)} files in the folder")
-        processed_folder_files = 0
-        for file in folder_files:
-            file_path = os.path.join(root, file)
-            process_file(file_path)
-            processed_folder_files += 1
-    processed_files += processed_folder_files
-
+    global total_files
+    logger.debug(f"start processing folder {folder_path}")
+    folder_files = 0
+    for root, _, files in os.walk(folder_path):
+        folder_files = len(files)
+        logger.debug(f"there are {folder_files} files in the folder")
+        for file in files:
+            path = os.path.join(root, file)
+            process_file(path)
+        total_files += folder_files
+    logger.debug(f"done processing {folder_files} entries in folder {folder_path}")
 
 def process_file(file_path):
-    global processed_images
-    global processed_other
+    global image_files
+    global non_image_files
     global copied_files
     global duplicate_files
     dest_path = None
@@ -63,55 +63,78 @@ def process_file(file_path):
     if isimage(file_path) :
         logger.debug(f"will process as image")
         dest_path = process_image(file_path)
-        processed_images += 1
-    
+        image_files += 1
     elif isarchive(file_path):
-        logger.debug(f"will process_file as archive")
+        logger.debug(f"will process as archive")
         temp_dir = extract_totemp(file_path)
+        keep_temp = keep_temp_folders
         logger.debug(f"extracted to {temp_dir}, will process as folder")
-        process_folder(temp_dir)
-        if not keep_temp_folders:
-            logger.debug(f"finished processing extracted files, removing temp folder")
+        try:
+            process_folder(temp_dir)
+        except Exception as e:
+            logger.error(f"error processing extracted files, keeping temp folder {temp_dir}", e)
+            keep_temp = True
+        if not keep_temp:
+            logger.debug(f"processed extracted files, removing temp folder {temp_dir}")
             shutil.rmtree(temp_dir)
         return
-
     else:
-        logger.debug(f"the file is neither image or archive, saving for later")
-        processed_other += 1
-        dest_path = os.path.join(other_dir, os.path.basename(file_path))
+        logger.debug(f"the file is neither image nor archive, saving for later")
+        non_image_files += 1
+        dest_path = os.path.join(non_image_folder, os.path.basename(file_path))
 
+    if os.path.isfile(dest_path):
+        dest_path = handle_duplicate(file_path, dest_path)
     if dest_path:
-        if os.path.isfile(dest_path):
-            logger.warning(f"File {dest_path} exists, copying as duplicate")
-            src_hash = get_hash_from_contents(file_path)
-            dest_hash = get_hash_from_contents(dest_path)
-            logger.warning(f"Posible duplicate: src_hash={src_hash}, dest_hash={dest_hash}")
-            if src_hash == dest_hash: 
-                logger.warning(f"Confirmed duplicate, will not copy")
-                duplicate_files += 1
-                return
-            else :
-                dest_path = f"{dest_path}-dup"
-                logger.warning(f"Duplicate not confirmed, copying as {dest_path}")
         shutil.copy2(file_path, dest_path)
         copied_files += 1
         logger.info(f"copied {file_path} to {dest_path}")
+    else:
+        duplicate_files += 1
+
+def handle_duplicate(file_path, dest_path):
+    result = None
+
+    logger.warning(f"possible duplicate: src={file_path}, dest={dest_path}")
+    src_hash = get_hash_from_contents(file_path)
+    dest_hash = get_hash_from_contents(dest_path)
+    if src_hash == dest_hash: 
+        logger.warning(f"duplicate confirmed, will not be copied")
+    else :
+        name, extension = os.path.splitext(dest_path)
+        result = f"{name}-DUP{extension}"
+        logger.warning(f"duplicate not confirmed, will be copied as {result}")
+
+    return result
 
 def process_image(image_path):
+    NO_YEAR = "NoYear"
+    NO_DATE = "NoDate"
+    NO_LOC = "NoLoc"
+
     image_metadata = get_image_metadata(image_path)
-    year = image_metadata.get('year', 'NoYear')
-    timestamp = image_metadata.get('datetime', 'NoTime')+image_metadata.get('subsec', str(0))
+    year = image_metadata.get('year')
+    if year:
+        date = image_metadata.get('datetime')+image_metadata.get('subsec','')
+        dest_file = date
+    else:
+        year = NO_YEAR
+        date = NO_DATE
+        dest_file = os.path.basename(image_path)
+     
     lat = image_metadata.get('lat')
     lon = image_metadata.get('lon')
     if lat and lon:
         location = geocache.get_location_name((lat, lon))
     else:
-        location = "NoLoc"
-    logger.info(f"process_image: year = {year}, timestamp={timestamp}, place = {location}")
-    
-    dest_subdir = os.path.join(dest_dir, year)
+        location = NO_LOC
+
+    dest_subdir = os.path.join(dest_folder, year)
     os.makedirs(dest_subdir, exist_ok=True)
-    dest_path = os.path.join(dest_subdir, f"{timestamp}_{location}.jpg")
+    _, extension = os.path.splitext(image_path)
+    dest_file = f"{dest_file}_{location}{extension}"
+    dest_path = os.path.join(dest_subdir, dest_file)
+    logger.info(f"computed image destination: {dest_path}")
     return dest_path
 
 def main(src):
@@ -119,10 +142,10 @@ def main(src):
 
     logger.debug(f"Geolocations cache contains {geocache.get_size()} entries")
     if os.path.isdir(src):
-        logger.info(f"Will process images in {src} folder and copy results to {dest_dir}.")
+        logger.info(f"Will process images in {src} folder and copy results to {dest_folder}.")
         process_folder(src)
     elif os.path.isfile(src):
-        logger.info(f"Will process {src} file and copy results to {dest_dir}.")
+        logger.info(f"Will process {src} file and copy results to {dest_folder}.")
         process_file(src)
     else:
         logger.warning(f"Bad arguments: {src} should be either file or folder.")
@@ -158,15 +181,20 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
 
-    dest_dir = args.dest
-    os.makedirs(dest_dir, exist_ok=True)
-    other_dir = f"{dest_dir}{os.sep}Other"
-    os.makedirs(other_dir, exist_ok=True)
+    dest_folder = args.dest
+    os.makedirs(dest_folder, exist_ok=True)
+    non_image_folder = f"{dest_folder}{os.sep}Other"
+    os.makedirs(non_image_folder, exist_ok=True)
     keep_temp_folders = args.keep_temp
     geocache = GeolocationCache()
+
+    files_at_dest_before = count_files_in_folder(dest_folder)
     main(args.src)
-    logger.info(f"Finished processing:\n\tprocessed_files={processed_files}, \
-                \n\tprocessed_images={processed_images}, \
-                \n\tprocessed_other={processed_other}, \
-                \n\tcopied_files={copied_files}, \
-                \n\tduplicate_files={duplicate_files}")
+    files_at_dest_after = count_files_in_folder(dest_folder)
+    logger.info(f"\nFinished processing: \
+                \n\ttotal files in source: {total_files}, \
+                \n\timage files in source: {image_files}, \
+                \n\tother files in source: {non_image_files}, \
+                \n\tcopied files: {copied_files}, skipped duplicate files {duplicate_files}, \
+                \n\tfiles at destination folder before: {files_at_dest_before} \
+                \n\tfiles at destination after: {files_at_dest_after}")

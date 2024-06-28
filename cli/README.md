@@ -25,4 +25,6 @@ options:
   --keep-temp           Keep the temporary directory after processing
 
 Smile and love, always!!! Kathy :-)
+
+ls -latr $LOCALAPPDATA/Temp | grep pyutils
 ```
