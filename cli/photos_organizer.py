@@ -112,6 +112,8 @@ def process_image(image_path):
     NO_DATE = "NoDate"
     NO_LOC = "NoLoc"
 
+    image_filename = os.path.basename(image_path)
+    image_basename, image_extension = os.path.splitext(image_filename)
     image_metadata = get_image_metadata(image_path)
     year = image_metadata.get('year')
     if year:
@@ -120,7 +122,7 @@ def process_image(image_path):
     else:
         year = NO_YEAR
         date = NO_DATE
-        dest_file = os.path.basename(image_path)
+        dest_file = image_basename
      
     lat = image_metadata.get('lat')
     lon = image_metadata.get('lon')
@@ -131,8 +133,7 @@ def process_image(image_path):
 
     dest_subdir = os.path.join(dest_folder, year)
     os.makedirs(dest_subdir, exist_ok=True)
-    _, extension = os.path.splitext(image_path)
-    dest_file = f"{dest_file}_{location}{extension}"
+    dest_file = f"{dest_file}_{location}{image_extension}"
     dest_path = os.path.join(dest_subdir, dest_file)
     logger.info(f"computed image destination: {dest_path}")
     return dest_path
