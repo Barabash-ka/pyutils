@@ -1,3 +1,5 @@
+## Exif Package
+
 EXIF (Exchangeable Image File Format) is a standard that specifies the formats for images, sound, and ancillary tags used by digital cameras (including smartphones) and other systems handling image and sound files recorded by digital cameras. The EXIF metadata is embedded within the image file and can include a wide range of information about the image and the camera settings at the time the photo was taken.
 
 ### Common EXIF Metadata Tags
