@@ -1,5 +1,5 @@
 # My untracked artifacts
-logs/       # directory where log files are saved
+logs        # directory where log files are saved
 temp/*      # directory used for testing and experiments
 tmp/*       # directory used for testing and experiments
 temp        # directory used for testing and experiments

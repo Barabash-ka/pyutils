@@ -25,10 +25,10 @@ def get_image_metadata(image_path):
         tags = exifread.process_file(f)
     
     if not tags:
-        logger.info(f"get_image_metadata: could not retrieve exif tags")
+        logger.debug(f"could not retrieve metadata with exifread")
         return result
     
-    logger.info(f"get_image_metadata: retrieved {len(tags)} exif tags as {type(tags)}")
+    logger.debug(f"get_image_metadata: retrieved {len(tags)} exif tags as {type(tags)}")
     for tag, tag_value in tags.items():
         value = str(tag_value)
         logger.debug(f"get_image_metadata: {tag}: {value[:50]}...")
@@ -37,8 +37,9 @@ def get_image_metadata(image_path):
             result['descr'] = value
         elif 'EXIF DateTimeOriginal' in tag:
             date_taken = datetime.strptime(value, exif_datetime_fmt)
-            result['year'] = date_taken.strftime('%Y')
-            result['datetime'] = date_taken.strftime('%Y%m%d_%H%M%S')
+            result['date_taken'] = date_taken
+            # result['year'] = date_taken.strftime('%Y')
+            # result['datetime'] = date_taken.strftime('%Y%m%d_%H%M%S')
         elif "SubSecTimeOriginal" in tag:
             result['subsec'] = value
         elif 'GPS GPSLatitude' in tag:
@@ -63,5 +64,5 @@ def get_image_metadata(image_path):
         else:
             result['lon'] = -lon
 
-    logger.info(f"get_image_metadata: result = {result}")
+    logger.debug(f"get_image_metadata: result = {result}")
     return result

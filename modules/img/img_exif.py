@@ -2,6 +2,7 @@
 from exif import Image as ExifImage
 from datetime import datetime
 import logging
+import warnings
 
 from modules.shared.logging import setup_logging
 
@@ -19,40 +20,45 @@ def get_image_metadata(img_path):
 
     with open(img_path, 'rb') as f:
         try:
-            exif_img = ExifImage(f)
-            #if exif_img.has_exif():
-            exif_tags = exif_img.get_all()
+            with warnings.catch_warnings():
+                warnings.filterwarnings("ignore")
+                exif_img = ExifImage(f)
+                #if exif_img.has_exif():
+                exif_tags = exif_img.get_all()
         except Exception as e:
             logger.error("elif package failed to initialize image object")
             return result
         
     if not exif_tags:
-        logger.info(f"could not retrieve exif tags")
+        logger.warning(f"could not retrieve exif tags")
         return result
             
-    logger.info(f"retrieved {len(exif_tags)} exif tags as {type(exif_tags)}")
+    logger.debug(f"retrieved {len(exif_tags)} exif tags as {type(exif_tags)}")
     for tag in exif_tags:
-        value = exif_img.get(tag)
-        logger.debug(f"{tag}:{str(value)[:50]}..., type={type(value)}")
+        with warnings.catch_warnings():
+            warnings.filterwarnings("ignore")
+            value = exif_img.get(tag)
+            logger.debug(f"{tag}:{str(value)[:50]}..., type={type(value)}")
 
-        if 'image_description' in tag:   
-            result['descr'] = value
-        elif 'datetime_original' in tag:
-            date_taken = datetime.strptime(value, exif_datetime_fmt)
-            result['year'] = date_taken.strftime('%Y')
-            result['datetime'] = date_taken.strftime('%Y%m%d_%H%M%S')
-        elif "sub_sec_time_original" in tag:
-            result['subsec'] = value
-        elif 'gps_latitude' in tag:
-            if 'gps_latitude_ref' in tag:
-                lat_ref = value
-            else:
-                lat = degrees_to_decimal(value[0], value[1], value[2])
-        elif 'gps_longitude' in tag:
-            if 'gps_longitude_ref' in tag:
-                lon_ref = value
-            else:
-                lon = degrees_to_decimal(value[0], value[1], value[2])
+            if 'image_description' in tag:   
+                result['descr'] = value
+            elif 'datetime' in tag:
+                date_taken = datetime.strptime(value, exif_datetime_fmt)
+                result['date_taken'] = date_taken
+                # result['year'] = date_taken.strftime('%Y')
+                # result['datetime'] = date_taken.strftime('%Y%m%d_%H%M%S')               
+            elif "sub_sec_time_original" in tag:
+                result['subsec'] = value
+            elif 'gps_latitude' in tag:
+                if 'gps_latitude_ref' in tag:
+                    lat_ref = value
+                else:
+                    lat = degrees_to_decimal(value[0], value[1], value[2])
+            elif 'gps_longitude' in tag:
+                if 'gps_longitude_ref' in tag:
+                    lon_ref = value
+                else:
+                    lon = degrees_to_decimal(value[0], value[1], value[2])
 
     if lat and lat_ref:
         if 'N' in lat_ref:
@@ -65,15 +71,15 @@ def get_image_metadata(img_path):
         else:
             result['lon'] = -lon
 
-    logger.info(f"result = {result}")
+    logger.debug(f"result = {result}")
     return result
 
 ########################################################################
 
-test_img = "tmp/image1.png"
+test_img = "../tmp/419248_2852448345863_1099141566_32183751_1900628845_n_NoLoc.jpg"
 
 if __name__ == "__main__":
-    setup_logging(None)
+    setup_logging()
     logger = logging.getLogger("img_elif_test")
 
     metadata = get_image_metadata(test_img)

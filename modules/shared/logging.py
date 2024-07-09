@@ -3,8 +3,12 @@ import os
 
 DEFAULT_LOG_DIR = 'logs'
 DEFAULT_LOG_FILE = 'default.log'
+DEFAULT_LOG_LEVEL = logging.DEBUG
+DEFAULT_SHUTUP_MODULES = []
 
-def setup_logging(log_file_name=DEFAULT_LOG_FILE, log_level = logging.DEBUG):
+def setup_logging(log_file_name=DEFAULT_LOG_FILE, 
+                  log_level = DEFAULT_LOG_LEVEL, 
+                  shutup_modules = DEFAULT_SHUTUP_MODULES):
     log_format='%(asctime)s - %(levelname)s - %(name)s - %(message)s'
     log_handlers=[]
     log_handlers.append(logging.StreamHandler())
@@ -20,5 +24,6 @@ def setup_logging(log_file_name=DEFAULT_LOG_FILE, log_level = logging.DEBUG):
     logger = logging.getLogger(__name__)
 
     logger.info(f"Logging setup with level={log_level}")
-    logger.info(f"Reducing noise from exif._image")
-    logging.getLogger('exif._image').setLevel(logging.ERROR)
+    for module in shutup_modules:
+        logger.info(f"Reducing noise from {module}")
+        logging.getLogger(module).setLevel(logging.ERROR)

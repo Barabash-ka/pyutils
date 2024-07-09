@@ -16,9 +16,7 @@ def count_files_in_folder(folder):
         files_in_folder += len(folder_files)
     return files_in_folder
 
-def isimage(file_path) :
-    #logger.info(f"isimage called for {file_path}")
-    return file_path.lower().endswith(('.jpg', '.jpeg', '.png'))
+
 
 def isarchive(file_path):
     if file_path.lower().endswith(('.pptx', '.kmz', '.docx')):
