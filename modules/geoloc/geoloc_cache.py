@@ -6,9 +6,10 @@ import reverse_geocoder as rg
 import pycountry
 
 DEFAULT_GEO_CACHE = 'data/geoloc_cache.json'
+DEFAULT_PRECISION = 2
 logger = logging.getLogger(__name__)
 
-from modules.shared.logging import setup_logging
+from modules.shared.mylog import setup_logging
 
 def get_place(coordinates):
     rg_res = rg.search(coordinates)
@@ -24,9 +25,11 @@ def get_place(coordinates):
     return result
 
 class GeolocationCache:
-    def __init__(self, cache_file=DEFAULT_GEO_CACHE):
+    def __init__(self, cache_file=DEFAULT_GEO_CACHE, precision = DEFAULT_PRECISION):
         self.cache_file = cache_file
+        self.precision = precision
         self.cache = self._load_cache()
+        logger.info(f"Geocache loaded from {self.cache_file} with {len(self.cache)} entries")
     
     def _load_cache(self):
         if os.path.exists(self.cache_file):
@@ -43,7 +46,7 @@ class GeolocationCache:
 
     def get_location_name(self, location):
         location_name = None
-        cache_key = f"{location[0]},{location[1]}"
+        cache_key = f"{round(location[0],self.precision)},{round(location[1],self.precision)}"
         logger.info(f"Retrieving location for {cache_key}")
 
         if cache_key in self.cache:
@@ -107,6 +110,7 @@ class GeolocationCache:
         except requests.RequestException as e:
             logging.error(f"Error in reverse geocoding: {e}")
             raise
+
 ########################################################################
 
 def test_dec_gps_to_name(geocache, coordinates):
@@ -115,13 +119,35 @@ def test_dec_gps_to_name(geocache, coordinates):
 
 test_dec_gps = [
     (32.27772778469444,34.86281227866667),
-    (55.75222, 37.61556)
+    (55.75222, 37.61556),
+    (32.27772778469444,34.86281227866667),
+    (32.62912963830556,35.124299479305556),
+    (32.62903500663889,35.12445580172222),
+    (32.750028655166666,35.071145492805556),
+    (32.75025094313889,35.071448498500004),
+    (32.073673222222226,34.792636861111106),
+    (32.07367705555556,34.792633055555555),
+    (32.7836685,35.025943749999996),
+    (32.765159583333336,35.015960666666665),
+    (32.76512525,35.01596830555555),
+    (32.765121444444446,35.0159645),
+    (32.76512525,35.015960666666665),
+    (32.76514433333333,35.01593780555555),
+    (32.76569747222222,35.015205361111114),
+    (32.76569747222222,35.01520155555556),
+    (32.07087222222223,34.781438888888886),
+    (32.78368888888889,35.02619444444444),
+    (32.78375833333333,35.026205555555556),
+    (32.78372777777778,35.02618888888889),
+    (32.78372777777778,35.02621388888889),
+    (32.78995555555555,35.008136111111114),
+    (32.782980555555554,35.02549166666667),
 ]
 
 if __name__ == "__main__":
     setup_logging(None)
     logger = logging.getLogger("geoloc_test")
-    geocache = GeolocationCache()
+    geocache = GeolocationCache(cache_file="test_cache2.json", precision=2)
 
     for dec_gps in test_dec_gps:
         name = test_dec_gps_to_name(geocache, dec_gps)

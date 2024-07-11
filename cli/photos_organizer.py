@@ -9,8 +9,8 @@ import shutil
 #import sys
 #sys.path.append(parent_dir)
 
-from modules.shared.logging import setup_logging
-from modules.shared.files import extract_totemp, isimage, isarchive, get_hash_from_contents, count_files_in_folder
+from modules.shared.mylog import setup_logging
+from modules.shared.myfile import extract_totemp, isimage, isarchive, get_hash_from_contents, count_files_in_folder
 from modules.img.img_exif import get_image_metadata
 from modules.geoloc.geoloc_cache import GeolocationCache
 

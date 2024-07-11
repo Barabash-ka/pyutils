@@ -4,7 +4,7 @@ from datetime import datetime
 import logging
 import warnings
 
-from modules.shared.logging import setup_logging
+from modules.shared.mylog import setup_logging
 
 logger = logging.getLogger(__name__)
 exif_datetime_fmt = '%Y:%m:%d %H:%M:%S'

@@ -6,7 +6,7 @@ import logging
 import warnings
 import re 
 
-from modules.shared.logging import setup_logging
+from modules.shared.mylog import setup_logging
 import modules.img.img_exif as img_exif
 import modules.img.img_exifread as img_exifread
 
