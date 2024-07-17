@@ -1,0 +1,7 @@
+Pillow
+python-dateutil
+exif
+exifread
+requests
+reverse_geocoder
+pycountry
