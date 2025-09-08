@@ -144,7 +144,7 @@ if __name__ == "__main__":
         '--src', 
         type = str, 
         metavar = 'SRC',
-        default = '.',
+        default = './photo_organizer_in',
         help= "Path to the source location")
     
     parser.add_argument(
@@ -179,10 +179,11 @@ if __name__ == "__main__":
     #non_img_subfolder = f"{dst}{os.sep}Other"
     #os.makedirs(non_img_subfolder, exist_ok=True)
     
+    hashtable = {} 
     files_at_src = []
     tempdirs_for_src = []
     start = time.time()
-    myfile.all_files_at_path(src, files_at_src, tempdirs_for_src)
+    myfile.all_files_at_path(src, files_at_src, tempdirs_for_src, hashtable)
     num_files_at_src = len(files_at_src)
     num_temp_dirs = len(tempdirs_for_src)
     end = time.time()
@@ -192,7 +193,7 @@ if __name__ == "__main__":
     files_at_dst = []
     tempdirs_for_dst = []
     start = time.time()
-    myfile.all_files_at_path(dst, files_at_dst, tempdirs_for_dst)
+    myfile.all_files_at_path(dst, files_at_dst, tempdirs_for_dst, hashtable)
     dst_files_before = len(files_at_dst)
     num_dst_archives = len(tempdirs_for_dst)
     end = time.time()
@@ -215,7 +216,7 @@ if __name__ == "__main__":
     dst_files_after1 = len(files_at_dst)
     logger.info(f"COMPLETED in {(end-start):.2f} seconds with {dst_files_after1} files at destination")
     files_at_dst = []
-    myfile.all_files_at_path(dst, files_at_dst, [])
+    myfile.all_files_at_path(dst, files_at_dst, [], hashtable)
     dst_files_after2 = len(files_at_dst)
     logger.info(f"\nSUMMARY: \
                 \nSRC-check: \

@@ -13,6 +13,7 @@ def setup_logging(log_file_name=DEFAULT_LOG_FILE,
     log_handlers=[]
     log_handlers.append(logging.StreamHandler())
     if log_file_name:
+        os.makedirs(DEFAULT_LOG_DIR, exist_ok=True)
         log_file = f"{DEFAULT_LOG_DIR}{os.sep}{log_file_name}"
         file_handler = logging.FileHandler(log_file, encoding='utf-8')
         log_handlers.append(file_handler)

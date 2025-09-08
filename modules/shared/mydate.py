@@ -1,7 +1,7 @@
 import logging
 import os
 from datetime import datetime
-import dateparser
+# import dateparser
 from dateutil import parser
 
 import modules.shared.mylog as mylog
@@ -77,10 +77,10 @@ def datetime_from_file(file, min_date = None, max_date = datetime.now()):
     dates = [datetime_from_os(file)]
 
     filename, _ = os.path.splitext(os.path.basename(file))
-    date = dateparser.parse(filename)
-    if date:
-        logger.debug(f"date from dateparser: {date} of type {type(date)}")
-        dates.append(date)
+    # date = dateparser.parse(filename)
+    # if date:
+    #     logger.debug(f"date from dateparser: {date} of type {type(date)}")
+    #     dates.append(date)
 
     filename = ''.join(filename.split('_'))
     filename = ''.join(filename.split('-'))
