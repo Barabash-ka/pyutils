@@ -1,0 +1,560 @@
+[
+  {
+    "date": "2023-08-12",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 12,
+    "files": [
+      "D:\\zzz_tosort\\0-GitBashHome\\.bashrc",
+      "D:\\zzz_tosort\\fromUser\\.bash_login",
+      "D:\\zzz_tosort\\fromUser\\.bash_logout",
+      "D:\\zzz_tosort\\fromUser\\.bash_profile",
+      "D:\\zzz_tosort\\fromUser\\.bash_hist\\2023-08-12_21-14-49.md",
+      "D:\\zzz_tosort\\fromUser\\.ssh\\known_hosts",
+      "D:\\zzz_tosort\\fromUser\\.ssh\\known_hosts.old",
+      "D:\\_system\\wsl\\u20work\\bash-history-2023-08-12.log"
+    ]
+  },
+  {
+    "date": "2023-08-13",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 13,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-08-13-hebrewname.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-08-13-hebrewname.md"
+    ]
+  },
+  {
+    "date": "2023-08-20",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 20,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\zotero-better-bibtex-6.7.113.xpi",
+      "D:\\zzz_tosort\\Downloads\\zotfile-5.1.2-fx.xpi",
+      "D:\\zzz_tosort\\fromUser\\.bash_hist\\2023-08-15_13-00-42.md",
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\new 7@2023-08-20_135618"
+    ]
+  },
+  {
+    "date": "2023-08-21",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 21,
+    "files": [
+      "D:\\yyy_evacuate\\A Case for Overlays in DCN Virtualization.pdf"
+    ]
+  },
+  {
+    "date": "2023-08-22",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 22,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\aapg-bulletin.csl",
+      "D:\\zzz_tosort\\Downloads\\Zotero-Advanced-2023.pptx"
+    ]
+  },
+  {
+    "date": "2023-08-23",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 23,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\ClusterLink_RH_202303.pptx",
+      "D:\\zzz_tosort\\Downloads\\ClusterLink_v4_mcm (1).pptx",
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\new 8@2023-08-23_123308",
+      "D:\\_system\\wsl\\u20work\\bash-history-2023-08-23.log"
+    ]
+  },
+  {
+    "date": "2023-08-24",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 24,
+    "files": [
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\new 9@2023-08-24_152941",
+      "D:\\_system\\msys64\\usr\\bin\\msys-mpfr-6.dll",
+      "D:\\_system\\msys64\\usr\\share\\info\\mpfr.info.gz",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\AUTHORS",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\BUGS",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\COPYING",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\COPYING.LESSER",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\FAQ.html",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\NEWS",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\TODO",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\examples\\can_round.c",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\examples\\divworst.c",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\examples\\ReadMe",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\examples\\rndo-add.c",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\examples\\sample.c",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\examples\\threads.c",
+      "D:\\_system\\msys64\\usr\\share\\doc\\mpfr\\examples\\version.c",
+      "D:\\_system\\msys64\\var\\lib\\pacman\\local\\mpfr-4.2.1-1\\mtree"
+    ]
+  },
+  {
+    "date": "2023-08-26",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 26,
+    "files": [
+      "D:\\_system\\msys64\\usr\\bin\\gunzip",
+      "D:\\_system\\msys64\\usr\\bin\\gzexe",
+      "D:\\_system\\msys64\\usr\\bin\\gzip.exe",
+      "D:\\_system\\msys64\\usr\\bin\\uncompress",
+      "D:\\_system\\msys64\\usr\\bin\\zcat",
+      "D:\\_system\\msys64\\usr\\bin\\zcmp",
+      "D:\\_system\\msys64\\usr\\bin\\zdiff",
+      "D:\\_system\\msys64\\usr\\bin\\zegrep",
+      "D:\\_system\\msys64\\usr\\bin\\zfgrep",
+      "D:\\_system\\msys64\\usr\\bin\\zforce",
+      "D:\\_system\\msys64\\usr\\bin\\zgrep",
+      "D:\\_system\\msys64\\usr\\bin\\zless",
+      "D:\\_system\\msys64\\usr\\bin\\zmore",
+      "D:\\_system\\msys64\\usr\\bin\\znew",
+      "D:\\_system\\msys64\\usr\\share\\info\\gzip.info.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\gunzip.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\gzexe.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\gzip.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\zcat.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\zcmp.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\zdiff.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\zforce.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\zgrep.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\zless.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\zmore.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\znew.1.gz",
+      "D:\\_system\\msys64\\var\\lib\\pacman\\local\\gzip-1.13-1\\mtree"
+    ]
+  },
+  {
+    "date": "2023-08-28",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 28,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-08-28-FAQRedHatacquiresNooBaa.md",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-08-28-UnknownFieldsinProtobuf.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-08-28-FAQRedHatacquiresNooBaa.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-08-28-UnknownFieldsinProtobuf.md",
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\new 10@2023-08-28_115923"
+    ]
+  },
+  {
+    "date": "2023-08-29",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 29,
+    "files": [
+      "D:\\_system\\msys64\\ucrt64\\bin\\libfreetype-6.dll",
+      "D:\\_system\\msys64\\ucrt64\\lib\\libfreetype.a",
+      "D:\\_system\\msys64\\ucrt64\\lib\\libfreetype.dll.a",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\ft2build.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\freetype.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftadvanc.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftbbox.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftbdf.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftbitmap.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftbzip2.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftcache.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftchapters.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftcid.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftcolor.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftdriver.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\fterrdef.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\fterrors.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftfntfmt.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftgasp.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftglyph.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftgxval.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftgzip.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftimage.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftincrem.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftlcdfil.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftlist.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftlzw.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftmac.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftmm.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftmodapi.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftmoderr.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftotval.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftoutln.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftparams.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftpfr.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftrender.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftsizes.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftsnames.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftstroke.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftsynth.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftsystem.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\fttrigon.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\fttypes.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ftwinfnt.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\otsvg.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\t1tables.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\ttnameid.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\tttables.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\tttags.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\config\\ftconfig.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\config\\ftheader.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\config\\ftmodule.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\config\\ftoption.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\config\\ftstdlib.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\config\\integer-types.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\config\\mac-support.h",
+      "D:\\_system\\msys64\\ucrt64\\include\\freetype2\\freetype\\config\\public-macros.h",
+      "D:\\_system\\msys64\\ucrt64\\lib\\pkgconfig\\freetype2.pc",
+      "D:\\_system\\msys64\\ucrt64\\share\\licenses\\freetype\\FTL.TXT",
+      "D:\\_system\\msys64\\ucrt64\\share\\licenses\\freetype\\GPLv2.TXT",
+      "D:\\_system\\msys64\\var\\cache\\pacman\\pkg\\mingw-w64-ucrt-x86_64-freetype-2.13.2-1-any.pkg.tar.zst",
+      "D:\\_system\\msys64\\var\\lib\\pacman\\local\\mingw-w64-ucrt-x86_64-freetype-2.13.2-1\\mtree"
+    ]
+  },
+  {
+    "date": "2023-08-30",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 30,
+    "files": [
+      "D:\\howtos\\rebase_fork_with_master.sh",
+      "D:\\howtos\\python\\materials-python-argparse.zip",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-08-30-FilesystemstructureofaPythonproject.md",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-08-30-WorkingwithMarkdownFilesinPython-BeontheRightSideofChange.md",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-08-30-WorkingwithMarkdowninPython-HoneybadgerDeveloperBlog.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-08-30-FilesystemstructureofaPythonproject.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-08-30-WorkingwithMarkdownFilesinPython-BeontheRightSideofChange.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-08-30-WorkingwithMarkdowninPython-HoneybadgerDeveloperBlog.md",
+      "D:\\zzz_tosort\\fromUser\\.bash_hist\\2023-08-23_11-37-11.md",
+      "D:\\zzz_tosort\\fromUser\\.bash_hist\\2023-08-30_19-37-29.md",
+      "D:\\zzz_tosort\\fromUser\\.bash_hist\\2023-08-30_19-48-58.md"
+    ]
+  },
+  {
+    "date": "2023-08-31",
+    "date_year": 2023,
+    "date_month": 8,
+    "date_day": 31,
+    "files": [
+      "D:\\zzz_tosort\\fromUser\\Screenshots\\Screenshot 2023-08-31 153633.png",
+      "D:\\_system\\msys64\\var\\cache\\pacman\\pkg\\mingw-w64-ucrt-x86_64-freetype-2.13.2-1-any.pkg.tar.zst.sig"
+    ]
+  },
+  {
+    "date": "2023-09-01",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 1,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-01-GuidelinesondesigningbetterhyperlinksSlavaShestopalovDesignBridges.md",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-01-HowToTakeSmartNotes10PrinciplestoRevolutionizeYourNote-TakingandWriting-ForteLabs.md",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-01-TutorialHowtoCreateaBookshelfinObsidian.md",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-01-TutorialHowtoUseFoldersynctoSyncYourObsidianVault.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\.obsidian\\community-plugins.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\.obsidian\\core-plugins-migration.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\.obsidian\\core-plugins.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\.obsidian\\plugins\\calendar\\data.json",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3.zip",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-01-GuidelinesondesigningbetterhyperlinksSlavaShestopalovDesignBridges.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-01-HowToTakeSmartNotes10PrinciplestoRevolutionizeYourNote-TakingandWriting-ForteLabs.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-01-TutorialHowtoCreateaBookshelfinObsidian.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-01-TutorialHowtoUseFoldersynctoSyncYourObsidianVault.md",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\.obsidian\\community-plugins.json",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\.obsidian\\core-plugins-migration.json",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\.obsidian\\core-plugins.json",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\.obsidian\\plugins\\calendar\\data.json"
+    ]
+  },
+  {
+    "date": "2023-09-02",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 2,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\desktop.ini",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\Untitled.md",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-02-.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\Diary\\Daily Notes\\2021-12-31.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\Diary\\Daily Notes\\2023-09-02.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\.obsidian\\app.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\.obsidian\\appearance.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\.obsidian\\backlink.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\.obsidian\\graph.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\.obsidian\\workspace.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\People\\Tim Ferris.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily_Note_First_Vault\\.obsidian\\plugins\\periodic-notes\\data.json",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\desktop.ini",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\Untitled.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-02-.md",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\Diary\\Daily Notes\\2021-12-31.md",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\Diary\\Daily Notes\\2023-09-02.md",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\.obsidian\\app.json",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\.obsidian\\appearance.json",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\.obsidian\\backlink.json",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\.obsidian\\graph.json",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\.obsidian\\workspace.json",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\People\\Tim Ferris.md",
+      "D:\\zzz_tosort\\Downloads\\Daily_Note_First_Vault\\.obsidian\\plugins\\periodic-notes\\data.json",
+      "D:\\zzz_tosort\\fromUser\\.bash_hist\\2023-09-01_16-36-26.md"
+    ]
+  },
+  {
+    "date": "2023-09-04",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 4,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\app.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\appearance.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\community-plugins.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\core-plugins-migration.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\core-plugins.json",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\workspace.json",
+      "D:\\zzz_tosort\\Downloads\\WebContentLibraryv1.0.zip",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\app.json",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\appearance.json",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\community-plugins.json",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\core-plugins-migration.json",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\core-plugins.json",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\workspace.json",
+      "D:\\zzz_tosort\\fromUser\\.bash_hist\\2023-09-03_20-58-47.md"
+    ]
+  },
+  {
+    "date": "2023-09-05",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 5,
+    "files": [
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\data.json@2023-09-05_150325"
+    ]
+  },
+  {
+    "date": "2023-09-06",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 6,
+    "files": [
+      "D:\\yyy_evacuate\\2023-09-06-Microsoft Edge Passwords.csv",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-06-HaveIBeenPwnedVerificationcomplete.md",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Calendar\\2023-08-30.md",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Calendar\\2023-08-31.md",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Calendar\\2023-09-04.md",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Templates\\Template, Daily Note (kit).md",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit (2).zip",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-06-HaveIBeenPwnedVerificationcomplete.md",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\app.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\appearance.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\community-plugins.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\core-plugins-migration.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\core-plugins.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\workspace.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Calendar\\2023-08-30.md",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Calendar\\2023-08-31.md",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Calendar\\2023-09-04.md",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\calendar\\data.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\periodic-notes\\data.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\recent-files-obsidian\\data.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Templates\\Template, Daily Note (kit).md",
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\new 11@2023-09-06_131908",
+      "D:\\_system\\msys64\\usr\\bin\\brotli.exe",
+      "D:\\_system\\msys64\\usr\\bin\\msys-brotlicommon-1.dll",
+      "D:\\_system\\msys64\\usr\\bin\\msys-brotlidec-1.dll",
+      "D:\\_system\\msys64\\usr\\bin\\msys-brotlienc-1.dll",
+      "D:\\_system\\msys64\\usr\\share\\licenses\\brotli\\LICENSE",
+      "D:\\_system\\msys64\\var\\lib\\pacman\\local\\brotli-1.1.0-1\\mtree"
+    ]
+  },
+  {
+    "date": "2023-09-07",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 7,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-07-InwhatwayscanweformusefulrelationshipsbetweennotesbyNickMiloMedium.md",
+      "D:\\zzz_tosort\\Downloads\\Hotnets-figures.pptx",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-07-InwhatwayscanweformusefulrelationshipsbetweennotesbyNickMiloMedium.md"
+    ]
+  },
+  {
+    "date": "2023-09-08",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 8,
+    "files": [
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\new 12@2023-09-08_004149"
+    ]
+  },
+  {
+    "date": "2023-09-09",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 9,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\2023-01-01_template_starter_vault.zip"
+    ]
+  },
+  {
+    "date": "2023-09-10",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 10,
+    "files": [
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\new 13@2023-09-10_115724"
+    ]
+  },
+  {
+    "date": "2023-09-11",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 11,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-11-GettingStartedWithDataviewPatreon.md",
+      "D:\\zzz_tosort\\Downloads\\ospw32.exe",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-11-GettingStartedWithDataviewPatreon.md",
+      "D:\\zzz_tosort\\fromUser\\.bash_hist\\2023-09-08_16-13-41.md",
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\new 14@2023-09-11_171100"
+    ]
+  },
+  {
+    "date": "2023-09-13",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 13,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\Financial_statements_template.xlsx",
+      "D:\\zzz_tosort\\Downloads\\Sample-Checkbook-Register.zip",
+      "D:\\zzz_tosort\\Downloads\\Sample-Checkbook.zip",
+      "D:\\zzz_tosort\\fromUser\\.bash_hist\\2023-09-12_17-09-57.md"
+    ]
+  },
+  {
+    "date": "2023-09-14",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 14,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-14-DataviewinObsidianABeginner'sGuide-ObsidianRocks.md",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-14-GolangEnvironmentGOPATHvsgo.mod-DEVCommunity.md",
+      "D:\\yyy_evacuate\\mdfiles\\mdClips\\2023-09-14-SlowInternetatHome.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-14-DataviewinObsidianABeginner'sGuide-ObsidianRocks.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-14-GolangEnvironmentGOPATHvsgo.mod-DEVCommunity.md",
+      "D:\\zzz_tosort\\Downloads\\mdClips\\2023-09-14-SlowInternetatHome.md",
+      "D:\\_system\\wsl\\u20work\\bash-history-2023-09-14.log"
+    ]
+  },
+  {
+    "date": "2023-09-15",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 15,
+    "files": [
+      "D:\\_system\\msys64\\usr\\bin\\msys-pcre-1.dll",
+      "D:\\_system\\msys64\\var\\lib\\pacman\\local\\libpcre-8.45-4\\mtree"
+    ]
+  },
+  {
+    "date": "2023-09-17",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 17,
+    "files": [
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\new 15@2023-09-14_214942",
+      "D:\\zzz_tosort\\fromUser\\Screenshots\\2023-09-17 202411 Magneto.png",
+      "D:\\zzz_tosort\\fromUser\\Screenshots\\Screenshot 2023-09-17 202411.png"
+    ]
+  },
+  {
+    "date": "2023-09-18",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 18,
+    "files": [
+      "D:\\zzz_tosort\\fromUser\\Screenshots\\Screenshot 2023-09-18 134506.png"
+    ]
+  },
+  {
+    "date": "2023-09-19",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 19,
+    "files": [
+      "D:\\zzz_tosort\\fromUser\\.bash_hist\\2023-09-14_15-27-42.md",
+      "D:\\zzz_tosort\\fromUser\\noepad++backup\\new 16@2023-09-18_112927"
+    ]
+  },
+  {
+    "date": "2023-09-25",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 25,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\2023-SmartPersonalBudget-Kathy.xltx",
+      "D:\\zzz_tosort\\Downloads\\The Smart Personal Budget Template - Standard Edition.xltx"
+    ]
+  },
+  {
+    "date": "2023-09-26",
+    "date_year": 2023,
+    "date_month": 9,
+    "date_day": 26,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\\u041d\u0430 \u043f\u0435\u043d\u0441\u0438\u044e \u0432 35 \u043b\u0435\u0442, \u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0431\u044e\u0434\u0436\u0435\u0442 2.0.xlsx",
+      "D:\\zzz_tosort\\Downloads\\\u041d\u0430 \u043f\u0435\u043d\u0441\u0438\u044e \u0432 35 \u043b\u0435\u0442, \u0443\u0447\u0435\u0442 \u0438\u043d\u0432\u0435\u0441\u0442\u0438\u0446\u0438\u0439.xlsx",
+      "D:\\zzz_tosort\\Downloads\\\u041d\u0430 \u043f\u0435\u043d\u0441\u0438\u044e \u0432 35, \u0441\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0431\u044e\u0434\u0436\u0435\u0442.xlsx",
+      "D:\\_system\\msys64\\usr\\bin\\backup",
+      "D:\\_system\\msys64\\usr\\bin\\restore",
+      "D:\\_system\\msys64\\usr\\bin\\tar.exe",
+      "D:\\_system\\msys64\\usr\\lib\\tar\\backup.sh",
+      "D:\\_system\\msys64\\usr\\lib\\tar\\dump-remind",
+      "D:\\_system\\msys64\\usr\\lib\\tar\\rmt.exe",
+      "D:\\_system\\msys64\\usr\\share\\info\\tar.info-1.gz",
+      "D:\\_system\\msys64\\usr\\share\\info\\tar.info-2.gz",
+      "D:\\_system\\msys64\\usr\\share\\info\\tar.info-3.gz",
+      "D:\\_system\\msys64\\usr\\share\\info\\tar.info.gz",
+      "D:\\_system\\msys64\\usr\\share\\locale\\bg\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\ca\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\cs\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\da\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\de\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\el\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\eo\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\es\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\et\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\eu\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\fi\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\fr\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\ga\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\gl\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\hr\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\hu\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\id\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\it\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\ja\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\ka\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\ko\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\ky\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\ms\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\nb\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\nl\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\pl\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\pt\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\pt_BR\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\ro\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\ru\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\sk\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\sl\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\sr\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\sv\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\tr\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\uk\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\vi\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\zh_CN\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\locale\\zh_TW\\LC_MESSAGES\\tar.mo",
+      "D:\\_system\\msys64\\usr\\share\\man\\man1\\tar.1.gz",
+      "D:\\_system\\msys64\\usr\\share\\man\\man8\\rmt.8.gz",
+      "D:\\_system\\msys64\\var\\lib\\pacman\\local\\tar-1.35-2\\mtree"
+    ]
+  }
+]

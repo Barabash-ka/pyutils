@@ -1,0 +1,409 @@
+[
+  {
+    "date": "2022-01-12",
+    "date_year": 2022,
+    "date_month": 1,
+    "date_day": 12,
+    "files": [
+      "D:\\zzz_tosort\\0-GitBashHome\\setup-u20\\.bashrc",
+      "D:\\zzz_tosort\\0-GitBashHome\\setup-u20\\.bash_history",
+      "D:\\zzz_tosort\\0-GitBashHome\\u20-base\\hist.txt",
+      "D:\\zzz_tosort\\0-GitBashHome\\u20-base\\hist1.txt",
+      "D:\\zzz_tosort\\0-GitBashHome\\u20-dev\\install-docker.sh",
+      "D:\\zzz_tosort\\0-GitBashHome\\u20-dev\\install-go.sh",
+      "D:\\zzz_tosort\\0-GitBashHome\\u20-dev\\install-kubectl.sh",
+      "D:\\zzz_tosort\\0-GitBashHome\\u20-dev\\setup-dev.sh",
+      "D:\\zzz_tosort\\0-GitBashHome\\u20-dev\\start-docker.sh",
+      "D:\\zzz_tosort\\0-GitBashHome\\u20-dev\\startDocker.sh",
+      "D:\\zzz_tosort\\0-GitBashHome\\u20-dev\\sudoers",
+      "D:\\zzz_tosort\\0-GitBashHome\\u20-dev\\wsl.conf",
+      "D:\\_system\\wsl\\u20\\bash-history-2022-01-12.log"
+    ]
+  },
+  {
+    "date": "2022-01-13",
+    "date_year": 2022,
+    "date_month": 1,
+    "date_day": 13,
+    "files": [
+      "D:\\zzz_tosort\\0-GitBashHome\\.gitconfig"
+    ]
+  },
+  {
+    "date": "2022-01-15",
+    "date_year": 2022,
+    "date_month": 1,
+    "date_day": 15,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\_Start Here.md",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\Triangulation-1a (Drawing).md",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._Triangulation-1a (Drawing).md",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\_Start Here.md",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\Triangulation-1a (Drawing).md",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\._obsidian-sortable",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._Triangulation-1a (Drawing).md"
+    ]
+  },
+  {
+    "date": "2022-01-22",
+    "date_year": 2022,
+    "date_month": 1,
+    "date_day": 22,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\obsidian-auto-link-title\\main.js",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\obsidian-auto-link-title\\manifest.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\obsidian-auto-link-title\\styles.css",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\._obsidian-auto-link-title",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\obsidian-auto-link-title\\._main.js",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\obsidian-auto-link-title\\._manifest.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\obsidian-auto-link-title\\._styles.css"
+    ]
+  },
+  {
+    "date": "2022-01-23",
+    "date_year": 2022,
+    "date_month": 1,
+    "date_day": 23,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\flow-four-factors.png",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\flow-map-original.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\flow-map.png",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\flow-zone-channel.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-0.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-1.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-4.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-5.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-logo-04.png",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-note-links-to-other-notes.png",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\pale-blue-dot-banner.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\sort-by-file-name-a-to-z.png",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\stay-on-target.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\wolverine-tethered.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._flow-four-factors.png",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._flow-map-original.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._flow-map.png",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._flow-zone-channel.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-0.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-1.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-4.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-5.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-logo-04.png",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-note-links-to-other-notes.png",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._pale-blue-dot-banner.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._sort-by-file-name-a-to-z.png",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._stay-on-target.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._wolverine-tethered.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\flow-four-factors.png",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\flow-map-original.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\flow-map.png",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\flow-zone-channel.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-0.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-1.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-4.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-5.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-logo-04.png",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-note-links-to-other-notes.png",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\pale-blue-dot-banner.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\sort-by-file-name-a-to-z.png",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\stay-on-target.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\wolverine-tethered.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._flow-four-factors.png",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._flow-map-original.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._flow-map.png",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._flow-zone-channel.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-0.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-1.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-4.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-5.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-logo-04.png",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-note-links-to-other-notes.png",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._pale-blue-dot-banner.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._sort-by-file-name-a-to-z.png",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._stay-on-target.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._wolverine-tethered.jpg"
+    ]
+  },
+  {
+    "date": "2022-02-01",
+    "date_year": 2022,
+    "date_month": 2,
+    "date_day": 1,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\._calendar"
+    ]
+  },
+  {
+    "date": "2022-02-13",
+    "date_year": 2022,
+    "date_month": 2,
+    "date_day": 13,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\nldates-obsidian\\main.js",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\nldates-obsidian\\manifest.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\url-into-selection\\main.js",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\url-into-selection\\manifest.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\nldates-obsidian\\._main.js",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\nldates-obsidian\\._manifest.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\url-into-selection\\._main.js",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\url-into-selection\\._manifest.json"
+    ]
+  },
+  {
+    "date": "2022-02-24",
+    "date_year": 2022,
+    "date_month": 2,
+    "date_day": 24,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\00 Daily Notes Hub.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\00 Media Log.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\00 New Discoveries Log.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\00 Ship's Log.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\00 Tasks Log.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\00 Workout Log.md",
+      "D:\\yyy_evacuate\\mdfiles\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\workspace",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-2.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-3.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-2.jpg",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-3.jpg",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\00 Daily Notes Hub.md",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\00 Media Log.md",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\00 New Discoveries Log.md",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\00 Ship's Log.md",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\00 Tasks Log.md",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\00 Workout Log.md",
+      "D:\\zzz_tosort\\Downloads\\Daily.Notes.Ver1.3\\Daily Notes\\.obsidian\\workspace",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-2.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Extras\\Images\\lyt-crafting-mocs-3.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-2.jpg",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Extras\\Images\\._lyt-crafting-mocs-3.jpg"
+    ]
+  },
+  {
+    "date": "2022-03-01",
+    "date_year": 2022,
+    "date_month": 3,
+    "date_day": 1,
+    "files": [
+      "D:\\$RECYCLE.BIN\\S-1-12-1-2886387908-1100785660-1029097632-984299006\\desktop.ini"
+    ]
+  },
+  {
+    "date": "2022-03-09",
+    "date_year": 2022,
+    "date_month": 3,
+    "date_day": 9,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\._dataview"
+    ]
+  },
+  {
+    "date": "2022-03-11",
+    "date_year": 2022,
+    "date_month": 3,
+    "date_day": 11,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\dataview\\data.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\dataview\\._data.json"
+    ]
+  },
+  {
+    "date": "2022-03-21",
+    "date_year": 2022,
+    "date_month": 3,
+    "date_day": 21,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\WP3 status update_v0.1.pptx"
+    ]
+  },
+  {
+    "date": "2022-03-24",
+    "date_year": 2022,
+    "date_month": 3,
+    "date_day": 24,
+    "files": [
+      "D:\\_system\\wsl\\IBM-PF346ZVH\\bash-history-2022-03-24.log",
+      "D:\\_system\\wsl\\u20base\\bash-history-2022-03-24.log"
+    ]
+  },
+  {
+    "date": "2022-03-27",
+    "date_year": 2022,
+    "date_month": 3,
+    "date_day": 27,
+    "files": [
+      "D:\\zzz_tosort\\wslhome-plus\\wsl.conf",
+      "D:\\_system\\wsl\\u20base\\bash-history-2022-03-27.log"
+    ]
+  },
+  {
+    "date": "2022-03-29",
+    "date_year": 2022,
+    "date_month": 3,
+    "date_day": 29,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\Data gaps v3.pptx",
+      "D:\\yyy_tobox\\presentations\\GTO - Networking _v2.pptx"
+    ]
+  },
+  {
+    "date": "2022-03-31",
+    "date_year": 2022,
+    "date_month": 3,
+    "date_day": 31,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\2022HRLOverview-HiRes.pptx"
+    ]
+  },
+  {
+    "date": "2022-04-01",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 1,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\GTO - Networking.pptx"
+    ]
+  },
+  {
+    "date": "2022-04-03",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 3,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\Summit Presentation.pptx"
+    ]
+  },
+  {
+    "date": "2022-04-05",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 5,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\20220406 networking with Dario v2 kathy.pptx",
+      "D:\\yyy_tobox\\presentations\\20220406 networking with Dario v2.pptx"
+    ]
+  },
+  {
+    "date": "2022-04-06",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 6,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\20220406 networking with Dario v2 vita (1).pptx",
+      "D:\\yyy_tobox\\presentations\\20220406 networking with Dario v2 vita.pptx",
+      "D:\\yyy_tobox\\presentations\\20220406 networking with Dario v3 kathy.pptx"
+    ]
+  },
+  {
+    "date": "2022-04-12",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 12,
+    "files": [
+      "D:\\u20work\\pyutils\\photo_organizer_in\\WIN_20220412_13_53_33_Pro.jpg",
+      "D:\\u20work\\pyutils\\photo_organizer_in\\WIN_20220412_13_53_49_Pro.jpg",
+      "D:\\u20work\\pyutils\\photo_organizer_out\\2022\\20220412_135333_NoLoc.jpg",
+      "D:\\u20work\\pyutils\\photo_organizer_out\\2022\\20220412_135349_NoLoc.jpg",
+      "D:\\zzz_tosort\\fromUser\\Camera Roll\\WIN_20220412_13_53_33_Pro.jpg",
+      "D:\\zzz_tosort\\fromUser\\Camera Roll\\WIN_20220412_13_53_49_Pro.jpg"
+    ]
+  },
+  {
+    "date": "2022-04-14",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 14,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\GTO23-Networking.pptx"
+    ]
+  },
+  {
+    "date": "2022-04-17",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 17,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\Edge Strategy_Overview.pptx",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\._obsidian-hover-editor"
+    ]
+  },
+  {
+    "date": "2022-04-18",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 18,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\UIUC 2022 April - Summary.pptx",
+      "D:\\yyy_tobox\\presentations\\UIUC 2022 April.pptx",
+      "D:\\yyy_tobox\\presentations\\UIUC 2022 Final.pptx"
+    ]
+  },
+  {
+    "date": "2022-04-19",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 19,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\UUIC Networking - GTO.pptx"
+    ]
+  },
+  {
+    "date": "2022-04-27",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 27,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\starred.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\periodic-notes\\main.js",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\periodic-notes\\manifest.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\periodic-notes\\styles.css",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\._starred.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\periodic-notes\\._main.js",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\periodic-notes\\._manifest.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\periodic-notes\\._styles.css"
+    ]
+  },
+  {
+    "date": "2022-04-28",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 28,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\20220427 networking with Dario v2 (1).pptx",
+      "D:\\yyy_tobox\\presentations\\20220427 networking with Dario v2.pptx",
+      "D:\\yyy_tobox\\presentations\\Gio Slides for UUIC kathy.pptx",
+      "D:\\yyy_tobox\\presentations\\UIUC Source Images.pptx"
+    ]
+  },
+  {
+    "date": "2022-04-29",
+    "date_year": 2022,
+    "date_month": 4,
+    "date_day": 29,
+    "files": [
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\LYT Kit\\Cards\\+ Start Here.md",
+      "D:\\yyy_evacuate\\mdfiles\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Cards\\._+ Start Here.md",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\Cards\\+ Start Here.md",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\Cards\\._+ Start Here.md"
+    ]
+  },
+  {
+    "date": "2022-05-01",
+    "date_year": 2022,
+    "date_month": 5,
+    "date_day": 1,
+    "files": [
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\LYT Kit\\.obsidian\\plugins\\nldates-obsidian\\data.json",
+      "D:\\zzz_tosort\\Downloads\\LYT Kit Vault\\__MACOSX\\LYT Kit\\.obsidian\\plugins\\nldates-obsidian\\._data.json"
+    ]
+  },
+  {
+    "date": "2022-05-02",
+    "date_year": 2022,
+    "date_month": 5,
+    "date_day": 2,
+    "files": [
+      "D:\\yyy_tobox\\presentations\\20220427 networking with Dario v3.pptx",
+      "D:\\yyy_tobox\\presentations\\OpenMCN4TNM-Apr22.pptx"
+    ]
+  }
+]

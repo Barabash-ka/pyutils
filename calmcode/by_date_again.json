@@ -1,0 +1,35 @@
+[
+  {
+    "date": "2025-01-31",
+    "date_year": 2025,
+    "date_month": 1,
+    "date_day": 31,
+    "files": [
+      "D:\\calmcode\\decorators\\main.py",
+      "D:\\calmcode\\diskcache\\main.py",
+      "D:\\calmcode\\diskcache\\local\\cache.db"
+    ]
+  },
+  {
+    "date": "2025-02-02",
+    "date_year": 2025,
+    "date_month": 2,
+    "date_day": 2,
+    "files": [
+      "D:\\calmcode\\files_by_date.json",
+      "D:\\calmcode\\files_by_date1.json",
+      "D:\\calmcode\\main.py"
+    ]
+  },
+  {
+    "date": "2025-02-04",
+    "date_year": 2025,
+    "date_month": 2,
+    "date_day": 4,
+    "files": [
+      "D:\\calmcode\\all_by_date1.json",
+      "D:\\calmcode\\by_date1.json",
+      "D:\\calmcode\\today.py"
+    ]
+  }
+]
